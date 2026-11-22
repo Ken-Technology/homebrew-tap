@@ -1,29 +1,29 @@
-# kenso 0.1.164, written by the Kenso CLI release. Each release replaces this file: do not edit it by hand.
+# kenso 0.1.169, written by the Kenso CLI release. Each release replaces this file: do not edit it by hand.
 class Kenso < Formula
   desc "Bulk lead, CRM and Studio work for people and coding agents"
   homepage "https://ken.so/cli"
-  version "0.1.164"
+  version "0.1.169"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://downloads.ken.so/desktop/cli/0.1.164/kenso-0.1.164-darwin-arm64.tar.gz"
-      sha256 "7d55bd5c05f65c8479483d694957d6f1f852cd3d39ba201bd5fe6bee1bf742e3"
+      url "https://downloads.ken.so/desktop/cli/0.1.169/kenso-0.1.169-darwin-arm64.tar.gz"
+      sha256 "515e1430f379d7bae43b018f3c47e85dec481a45ec801a815220a62a2e9b0ab4"
     end
     on_intel do
-      url "https://downloads.ken.so/desktop/cli/0.1.164/kenso-0.1.164-darwin-x64.tar.gz"
-      sha256 "775c7c966d8e66f01ac927c65d2bdfe750b0ac2ea05b12c3396975df3b368f78"
+      url "https://downloads.ken.so/desktop/cli/0.1.169/kenso-0.1.169-darwin-x64.tar.gz"
+      sha256 "5f22058603acc5d011572a3ee8d0214c6195bd1a8bc451aea049f56b32ded72d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.ken.so/desktop/cli/0.1.164/kenso-0.1.164-linux-arm64.tar.gz"
-      sha256 "705a3c4c4465da5564493283d1439ee1e70f77bfdb898fbe369037066ad461ad"
+      url "https://downloads.ken.so/desktop/cli/0.1.169/kenso-0.1.169-linux-arm64.tar.gz"
+      sha256 "70c4f00fd4575546ee7863bd9316695a926690b8809a8307a590c65d7077734d"
     end
     on_intel do
-      url "https://downloads.ken.so/desktop/cli/0.1.164/kenso-0.1.164-linux-x64.tar.gz"
-      sha256 "55a52364142cf57030982cea4a3550487b88ef7e306d28c9399f60615cf0d0fa"
+      url "https://downloads.ken.so/desktop/cli/0.1.169/kenso-0.1.169-linux-x64.tar.gz"
+      sha256 "e0179dce4d1794b1db58e9612bf2176e2e9177c36df9f9a6daf31c44a94e281c"
     end
   end
 
